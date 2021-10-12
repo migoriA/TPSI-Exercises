@@ -1,0 +1,58 @@
+<!DOCTYPE html>	 		<!-- documento html5 --> 
+<html lang="it"> 
+	<head> 
+		<meta charset="UTF-8" /> 
+		<title> Invia Commenti </title> 
+	</head>
+	<body> 
+		<table border="1" align="center">
+			<tr>
+				<th rowspan="2">Roberto<br/> Benigni</th>
+				<th colspan="4">Altri film</th>
+				
+			</tr>
+			<tr>
+				<th colspan="1">Titolo</th>
+				<th colspan="4">Descrizione</th>
+			</tr>
+			<tr>
+				<td>1988</td>
+				<th width="30%" align="left"><i>Il piccolo diavolo</i></th>
+				<td>Padre Maurizio viene chiamato a compiere un esorcismo per liberare<br/> una donna dall'essere che la stava possedendo.</td>
+			</tr>
+			<tr>
+				<td>1994</td>
+				<th width="30%" align="left"><i>Il mostro</i></th>
+				<td>Loris è un giovane disoccupato che si guadagna da vivere con lavori saltuari. Una serie di equivoci porta la polizia a sospettare che Loris sia il maniaco sessuale e serial killer di donne che terrorizza il quartiere.</td>
+			</tr>
+			<tr>
+				<td>2005</td>
+				<th width="30%" align="left"><i> La tigre e la neve</i></th>
+				<td>Attilio de Giovanni, svagato ed estroso professore di poesia, divorziato e padre di due preadolescenti, è innamorato perdutamente di Vittoria, una scrittrice che gli appare in sogno tutte le notti.</td>
+			</tr>
+		</table>
+		<br/>
+		<form>
+			<lable for="txtFilm">Quale tra i film precedenti ti è piaciuto di più? </lable>
+			<input size="50" maxlength="20" required autocomplete="off" type="text" id="txtFilm"/>
+			<br/>
+			<br/>
+			<lable for="txtCinema">Lo hai visto al cinema?</lable>
+			<input size="50" required autocomplete="off" type="radio" id="si"/>
+			<lable for="si">si</lable>
+			<input size="50" required autocomplete="off" type="radio" id="no"/>
+			<lable for="no">no</lable>
+			<br/>
+			<br/>
+			<lable>Lo hai visto più volte?</lable>
+			<input size="10" required autocomplete="off" type="checkbox" id="si"/>
+			<lable for="si">si</lable>
+			<br/>
+			
+			<lable for="voto">Assegna un voto da 1 a 10:</lable>
+			<input size="50" required autocomplete="off" type="number" min="1" max="10" id="voto"/>
+			<input size="50" required autocomplete="off" type="submit" id="voto"/>
+			<a href="index.html"><img src="ritorna.gif" width="5%"/></a>
+		</form>
+	</body> 
+</html>

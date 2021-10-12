@@ -1,0 +1,66 @@
+<!DOCTYPE html> <!-- documento html5 --> 
+<html lang="it"> 
+	<head> 
+		<meta charset="UTF-8" /> 
+		<title> Es 11 </title> 
+	</head> 
+	<body> 
+		<h1 align="center"> Pagina di registrazione </h1>
+		<form action="pagina2.html">
+			<label for="txtNome"> Nome: </label>
+			<input  size="50" maxlength="12" id="txtNome" name="txtNome" autocomplete="off" type="text" placeholder="Inserire il proprio nome" required />
+			<br/><br/>
+			<label for="txtCognome"> Cognome: </label>
+			<input  size="50" maxlength="12" id="txtCognome" name="txtCognome" autocomplete="off" type="text" placeholder="Inserire il proprio cognome" required />
+			<br/><br/>
+			<label for="txtPassword"> Inserisci password: </label>
+			<input  size="50" maxlength="12" id="txtPassword" name="txtPassword" autocomplete="off" type="password" placeholder="Inserire la password" required />
+			<br/><br/>
+			<label for="txtEta"> Inserisci la tua età: </label>
+			<input id="txtEta"  type="number" size="50" name="txtEta" maxlength="2" min="18" max="50"  autocomplete="off"  placeholder="Inserire l'età" required />
+			<br/><br/>
+			<label for="txtImmagine"> Immagine profilo: </label>
+			<input id="txtImmagine"  type="file" size="50" name="txtImmagine" maxlength="2" min="18" max="50"  autocomplete="off" required />
+			<br/><br/>
+			<p> Hobby: </p>
+			<label> Sport: </label>
+			<input  id="chkSport" type="checkbox" name="chkSport" maxlength="2" min="18" max="50"  autocomplete="off" />
+			&nbsp;&nbsp;&nbsp;
+			<label> Cinema: </label>
+			<input  id="chkCinema" type="checkbox" name="chkCinema" maxlength="2" min="18" max="50"  autocomplete="off" />
+			&nbsp;&nbsp;&nbsp;
+			<label> Informatica: </label>
+			<input  id="chkInformatica" type="checkbox" name="chkInformatica" maxlength="2" min="18" max="50"  autocomplete="off" />
+			<br/> <p> Scuola: </p>
+			<label> ITIS </label>
+			<input  id="optITIS" name="optScuola" type="radio" maxlength="2" min="18" max="50"  autocomplete="off" />
+			&nbsp;&nbsp;&nbsp;
+			<label> Liceo scientifico  </label>
+			<input  id="optSci" name="optScuola" type="radio" maxlength="2" min="18" max="50"  autocomplete="off" />
+			&nbsp;&nbsp;&nbsp;
+			<label> Ragioneria </label>
+			<input  id="optRagioneria" name="optScuola" type="radio" maxlength="2" min="18" max="50"  autocomplete="off" />
+			&nbsp;&nbsp;&nbsp;
+			<br/> <br/>
+			<label for="txtCommenti"> Commenti </label>
+			<textarea id="txtCommenti" cols="50" rows="7" placeholder="Inserisci i tuoi commenti" autocomplete="off"> </textarea>
+			<br/><br/>
+			<label for="lstProvincia">Provincia di residenza</label>
+			<select id="lstProvincia">
+				<option>Cuneo</option>
+				<option>Torino</option>
+				<option>Asti</option>
+				<option>Alessandria</option>
+			</select>
+			
+			
+			<br/>
+			<br/>
+			<input type="reset" value="reset"/>
+			<input type="submit" value="invia"/>
+			
+			
+		</form>
+		
+	</body>
+ </html>
