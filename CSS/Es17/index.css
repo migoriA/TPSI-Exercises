@@ -1,0 +1,21 @@
+p.paragrafo2
+{
+    color:#0000FF;
+    font-style:italic;
+    font-weight:bold;
+}
+div.div{
+    width:200px;
+    height:150px;
+    background-color:#00FF00;
+    margin:0 auto;
+    text-align:center;
+    line-height: 160px;
+    border:1px solid black;
+
+    background-image: url(Koala.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position:center;
+    color:rgb(255,255,255);
+}
