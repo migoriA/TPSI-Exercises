@@ -1,0 +1,37 @@
+p {
+    font-family: verdana, helvetica,sans-serif;
+    font-size:15pt;
+    
+}
+p span {
+    font-weight: bolder;
+    
+}
+#Intestazione {
+    font-size:50pt;
+    font-style:arial;
+}
+.italic {
+    font-style: italic;
+}
+.sottolineato {
+    text-decoration: underline;
+    color: #0000FF;
+    letter-spacing:-2px;
+    word-spacing:2px;
+}
+div {
+    height:150px;
+    width:500px;
+    border:1px solid darkred;
+    border-bottom-color:#0000FF;
+    border-right-width:4px;
+    background-color:darkgoldenrod;
+    margin-top:30px;
+    /*     top  right bottom left */
+    margin:30px 0px 0px 100px;
+    /*   top-bottom left-right */
+    margin: 40px 200px;
+    margin: 40px auto;
+    padding:20px;
+}
