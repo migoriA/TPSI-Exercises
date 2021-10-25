@@ -19,6 +19,7 @@ p span {
     color: #0000FF;
     letter-spacing:-2px;
     word-spacing:2px;
+    font-weight:normal;
 }
 div {
     height:150px;
@@ -33,5 +34,7 @@ div {
     /*   top-bottom left-right */
     margin: 40px 200px;
     margin: 40px auto;
-    padding:20px;
+    padding:40px 20px;
+    vertical-align:middle; /*non fa nulla pk vale solo per tag inline*/
+   /* line-height:150px; va bene quando ho solo una riga*/
 }
