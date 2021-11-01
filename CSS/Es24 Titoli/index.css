@@ -1,0 +1,79 @@
+p.intro{
+    text-align: center;
+    width:400px;
+    font-family: verdana,arial;
+    font-size:12pt;
+    font-style: oblique;
+    color:#555;
+    word-spacing:-1px;
+    letter-spacing: -1px;
+    margin:10px 15px;
+    padding:0;
+}
+p.titolo{
+    text-align: center;
+    width:400px;
+    font-family: verdana,arial;
+    font-size:24pt;
+    font-weight: bold;
+    color:rgb(255, 0, 0);
+    word-spacing:-1px;
+    letter-spacing: -1px;
+    margin:10px 15px;
+    padding:0;
+    background-color:lightgray;
+}
+p.sottotitolo{
+    text-align: center;
+    width:378px;
+    font-family: verdana,arial;
+    font-size:18pt;
+    font-weight: bold;
+    color:#080;
+    word-spacing:-1px;
+    letter-spacing: -1px;
+    margin:10px 15px;
+    padding:15px 10px;
+    background-color:lightyellow;
+    border:1px solid #000; 
+}
+#quarta{
+    text-align: center;
+    width:378px;
+    height: 100px;
+    font-family: verdana,arial;
+    font-size:18pt;
+    font-weight: bold;
+    color:#00F;
+    word-spacing:-3px;
+    letter-spacing: -2px;
+    margin:10px 15px;
+    padding:20px 10px;
+    border:2px dashed #000;
+    overflow:auto;
+}
+#fondo{
+    display: block;
+    text-align:center;
+    width:200px;
+    height: 40px;
+    font-family: verdana,arial;
+    font-size:12pt;
+    font-style: oblique;
+    color:#558;
+    background-color: #ccc;
+    border:1px solid #999;
+    border-left-width: 4px;
+    word-spacing:-1px;
+    letter-spacing: -1px;
+    margin:10px 100px;
+    padding:0;
+}
+.fondo{
+    text-decoration:none;
+}
+.fondo:hover{
+    text-decoration:underline;
+    background-color: #AAA;
+    border-left-width:4px solid #565656 ;
+}
