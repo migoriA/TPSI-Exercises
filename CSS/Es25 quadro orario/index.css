@@ -35,3 +35,13 @@ th{
 .inglese{
     background-color: #FBA;
 }
+table{
+    width: 780px;
+    margin:10px 10 px;
+}
+body{
+    background-image: url(bg.gif);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-color: rgb(234,234,234);
+}
