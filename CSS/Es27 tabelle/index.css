@@ -1,0 +1,28 @@
+*{
+    margin:0;
+    padding:0;
+}
+table {
+    margin:20px auto;
+    text-align: center;
+    border:1px solid #AAA;
+    background-color: #DDD;
+    
+}
+thead tr{
+    background-color: #5BF;
+}
+th{
+    width:130px;
+    padding:10px;
+    
+}
+tbody tr:nth-of-type(odd){
+    background-color: #AFA;
+}
+td tbody :hover{
+    background-color: #00F;
+    color:#FFF;
+    text-decoration:underline;
+    cursor:pointer;
+}

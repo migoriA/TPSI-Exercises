@@ -1,0 +1,46 @@
+*{
+    padding:0;
+    margin:0;
+}
+#wrapper{
+    width:240px;
+    height:240px;
+    background-color: #DEDEDE;
+    margin:10px auto;
+    padding:10px;
+    position:relative;
+}
+.box{
+    width:100px;
+    height:100px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bold;
+    font-size:30pt;
+    background-color: #FFA;
+    border:1px solid #777;
+    position:absolute;
+}
+p{
+    z-index:3;/*Non è possibile cambiare lo z-index su elementi statici(position:static)*/
+    position:relative;
+    top:20px;
+    left:20px;
+}
+.box:nth-of-type(3){
+    bottom:10px;
+    right:10px;
+    z-index:1;
+}
+.box:nth-of-type(1){
+    left:10px;
+    top:10px;
+    z-index:1;
+}
+.box:nth-of-type(2){
+    left:50%;
+    top:50%;
+    margin-left:-50px;
+    margin-top:-50px;
+    z-index:2;
+}

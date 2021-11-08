@@ -9,7 +9,7 @@ h1{
 }
 a{
     display:block;
-    width: 140px;
+    width: 160px;
     height: 45px;
     border:1px solid #AAA;
     text-align: center;
@@ -20,7 +20,7 @@ a{
     margin:2px;
     color:#60F;
     border-left-width: 5px;
-    border-radius:100px;
+    border-radius:6px;
 }
 a:hover{
     text-decoration:underline;
@@ -33,11 +33,16 @@ ul{
     list-style-type: none;
 }
 .verticale{
-    width:150px;
+    width:170px;
 }
 .orizzontale{
-    width:600px;
+    margin:auto;
+    text-align:center;
+    width:680px;
 }
 ul.orizzontale li{
     display:inline-block;
+}
+ul.orizzontale li a{
+    margin:0;
 }
