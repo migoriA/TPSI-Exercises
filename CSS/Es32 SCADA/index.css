@@ -1,0 +1,30 @@
+*{
+    margin:0;
+}
+#wrapper{
+    width:380px;
+    margin:30px auto;
+    padding:40px;
+    background-color: #EEE;
+    border-radius: 20px;
+}
+.comandi{
+    
+    height: 130px;
+    text-align: left;
+}
+button{
+    display: block;
+    width:100px;
+    margin:10px;
+    height:40px;
+    background-color: #AFA;
+    border-radius: 10px;
+    
+}
+.stati{
+    
+    text-align:left;
+    width:180px;
+    background-color: #FFC;
+}
