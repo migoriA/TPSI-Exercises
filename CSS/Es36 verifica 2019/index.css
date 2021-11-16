@@ -1,0 +1,113 @@
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    height:100%;
+}
+body{
+    height:100%;
+    font-family:Verdana,arial,sans-serif;
+    font-size:10pt;
+    background-image:url(bg.gif);
+    background-position: center;
+    background-repeat: repeat-y;
+    background-color: #eaeaea;
+
+}
+#wrapper{
+    width:740px;
+    padding-left:10px;
+    padding-right:10px;
+    margin:10px auto;
+    background-color: #DFF;
+    height:100%;
+}
+#header{
+    height:190px;
+    margin:10px;
+    padding:10px;
+    border-radius:20px;
+    background-image: url(medusa.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#header h1{
+    font-size:30pt;
+    color:#F00;
+    text-align: center;
+    padding:15px;
+}
+#header h3{
+    font-size:16pt;
+    color:#F00;
+    text-align:center;
+    padding:8px;
+}
+#mainBox{
+    width:540px;
+    height:250px;
+    padding:12px;
+    overflow:auto;
+    
+}
+#mainBox h3{
+    padding:15px 20px;
+}
+#mainBox div{
+    float:left;
+    width:110px;
+    height:88px;
+    background-image:url(img.jpg);
+    margin-right:12px;
+    margin-left:12px;
+    margin-bottom:12px;
+    margin-left:5px;
+}
+#mainBox>div>p{
+    background-color:rgba(0,0,0,0);
+    color:rgba(0,0,0,0);
+    font-size:8pt;
+}
+#mainBox>div:hover>p{
+    background-color: rgba(238,238,238,0.5);
+    color:rgba(0,0,0,1);
+}
+#aside{
+    float:right;
+    padding:10px;
+    margin:10px 0;
+    border:1px solid #000;
+    border-radius: 10px;
+    list-style: none;
+}
+#aside li{
+    width:140px;
+    height:50px;
+    font-weight:bold;
+    text-align:center;
+    line-height: 50px;
+    margin:2px;
+    border:1px solid #AAA;
+    border-left:5px solid #AAA;
+    background-color: #AF0;
+    color:#333;
+    border-radius:5px;
+}
+#aside>li>a{
+    text-decoration: none;
+}
+#aside>li:hover>a{
+    text-decoration: underline;
+    
+}
+#aside li:hover{
+    color:#AF0;
+    background-color: #333;
+}
+#footer{
+    margin-top:20px;
+    padding:7px;
+    border:1px solid #000;
+    border-radius:6px;
+}

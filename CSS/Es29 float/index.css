@@ -1,0 +1,48 @@
+*{
+    padding:0;
+    margin:1%;
+}
+#wrapper{
+    width:50%;
+    margin-left:25%;
+    background-color: #777;
+    border: 2px solid #F00;
+    font-size:20pt;
+    font-weight: bold;
+    text-align: center;
+}
+header, nav, footer{
+    padding:36px;
+}
+header{
+    background-color: #FF0;
+}
+nav{
+    background-color: #0F0;
+}
+footer{
+    background-color: #00F;
+}
+section{
+    background-color: #F0F;
+    border:1px solid #000;
+}
+section p{
+    padding:25px;
+    overflow: auto;
+}
+article{
+    background-color: #0FF;
+    width:62%;
+    height:160px;
+    float:right;
+    margin-top:0;
+}
+aside{
+    background-color: #0A0;
+    width:31%;
+    height:327px;
+    
+    margin-top:0;
+    
+}
