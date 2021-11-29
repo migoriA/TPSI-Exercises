@@ -1,0 +1,21 @@
+<!DOCTYPE html>	 		<!-- documento html5 --> 
+<html lang="it"> 
+	<head> 
+		<meta charset="UTF-8" /> 
+		<title> Es38 </title>
+		<link rel="stylesheet" href="index.css"/> 
+	</head>
+	<body> 
+		<h1 align="center"> Nuovi input HTML </h1>
+		<form id="wrapper" action="pagina2.html" >
+			<label for="txtUser">Nome: </label>
+			<input type="text" name="txtUser" id="txtUser" pattern="[a-z] {1} [a-z_] {2,19}" title="inserire una stringa lunga tra 2 e 20"/>
+			<br/><br/>
+			<label for="txtEta">Età: </label>
+			<input type="number" name="txtEta" id="txtEta" min="15" max="90" step="5"/>
+			<br/><br/>
+			<button>Invia</button>
+			
+		</form>
+	</body> 
+</html>
