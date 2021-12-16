@@ -1,0 +1,31 @@
+*{
+    padding:0;
+    margin:0;
+}
+#wrapper{
+    width:730px;
+    margin:auto;
+    padding:4px;
+    
+}
+body{
+    background-image: url(bg.gif);
+    background-repeat:repeat-y;
+    background-position: center;
+    background-color: rgb(234,234,234);
+}
+#header{
+    height:275px;
+    background-image:url(front.jpg);
+    margin-bottom:10px;
+    color:#505050;
+}
+#leftFrame{
+    width:150px;
+    height:450px;
+}
+#leftFrame ul:first-of-type{
+    width:150px;
+    margin-bottom:20px;
+    
+}
