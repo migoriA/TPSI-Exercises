@@ -1,0 +1,69 @@
+*{
+  margin:0;
+  padding:0;
+}
+html{
+  font-family: Verdana,Arial,sans-serif;
+  background-image:url(sfondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#wrapper{
+  margin:auto;
+  width: 1000px;
+}
+header{
+  border-radius:10px;
+  background-color:rgb(200,255,220) ;
+  height:140px;
+  margin-bottom:10px;
+  font-size:38pt;
+}
+header div{
+  background-image:url(unicredit1.png);
+  width:161px;
+  height:69px;
+  border:8px solid white;
+  border-right:20px solid;
+}
+nav{
+  border-radius:10px;
+  height:650px;
+  background:linear-gradient(180deg, rgb(200,255,220),rgb(100,127,110));
+  width:240px;
+  margin:10px;
+  margin-left:0;
+  display:inline-grid;
+}
+nav h1{
+  padding:20px;
+  text-align:center;
+}
+#wrapper section{
+  border-radius:10px;
+  height:650px;
+  background:linear-gradient(180deg, rgb(200,255,220),rgb(100,127,110));
+  margin:10px;
+  width:528px;
+  display:inline-grid;
+}
+section h1{
+  padding:20px;
+}
+aside{
+  border-radius:10px;
+  height:650px;
+  background:linear-gradient(180deg, rgb(200,255,220),rgb(100,127,110));
+  width:180px;
+  margin:10px;
+  margin-right:0;
+  display:inline-grid;
+}
+aside h1{
+  padding:20px;
+}
+footer{
+  border-radius:10px;
+  background-color:rgb(100,127,110) ;
+}

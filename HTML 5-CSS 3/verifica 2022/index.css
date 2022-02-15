@@ -1,0 +1,170 @@
+*{
+  margin:0;
+  padding:0;
+}
+html{
+  font-family: Arial, Helvetica;
+  font-size:10pt;
+}
+#wrapper{
+  max-width:1024px;
+  margin:auto;
+}
+#img1{
+  background-image:url(img/vallauri.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  max-width:930px;
+  margin:10px;
+  text-align:center;
+  color:#777777;
+  padding-top:170px;
+  padding-left: 850px;
+  font-size:80%;
+}
+#burger{
+  display:none;
+}
+nav{
+  max-width:985px;
+  height:32px;
+  margin:0;
+  text-align:center;
+  padding:10px 5px;
+  background-color:rgb(221, 224, 241);
+  border:1px solid #CCC;
+  border-radius:10px;
+}
+nav li{
+  max-width: auto;
+  height:18px;
+  text-align: center;
+	line-height: 32px;
+  padding:10px;
+  display:inline;
+  margin:4px;
+  font-size:90%;
+  font-weight: bold;
+  border-radius:5px;
+  border:1px solid #000;
+  box-shadow:2px 2px 3px #000;
+  background:linear-gradient(to left,#55F, #FFF,#55F);
+}
+nav li a{
+  text-decoration:none;
+  color:black;
+}
+nav li:hover{
+  background:linear-gradient(to left,#FFF, #55F,#FFF);
+  
+}
+nav li a:hover{
+  color:#FF0;
+}
+#mainSection{
+  float:left;
+  max-width:610px;
+  height:600px;
+  margin:10px;
+  padding-left:20px;
+  overflow: auto;
+}
+#mainSection article{
+  padding:12px;
+  border-bottom:1px solid #333;
+}
+#mainSection article img{
+  padding:6px;
+  float: left;
+}
+#mainSection article p{
+  font-size:80%;
+}
+#mainSection button{
+  width:88px;
+  height:10px;
+  float:right;
+  background-image:url(img/continua.png);
+  background-size:contain;
+  background-repeat: no-repeat;
+  border:none;
+}
+#mainSection button:hover{
+  cursor:pointer;
+}
+#wrapper aside{
+  max-width: 320px;
+  height:400px;
+  margin:15px;
+  padding:10px;
+  float:right;
+}
+#wrapper aside section{
+  width:220px;
+  height:160px;
+  margin:10px auto;
+  border-radius:12px;
+  
+}
+#wrapper aside section:nth-of-type(1){
+  animation:animazione1 10s linear 1s infinite;
+}
+#wrapper aside section:nth-of-type(2){
+  animation:animazione2 10s linear 1s infinite;
+}
+@keyframes animazione1{
+	0%{background-image:url(img/img1.jpg);background-repeat: no-repeat;}
+	20%{background-image:url(img/img2.jpg);background-repeat: no-repeat}
+	40%{background-image:url(img/img2.jpg);background-repeat: no-repeat}
+	45%{background-image:url(img/img3.jpg);background-repeat: no-repeat}
+	65%{background-image:url(img/img3.jpg);background-repeat: no-repeat}
+	70%{background-image:url(img/img4.jpg);background-repeat: no-repeat}
+	90%{background-image:url(img/img4.jpg);background-repeat: no-repeat}
+	100%{background-image:url(img/img1.jpg);background-repeat: no-repeat;}
+}
+@keyframes animazione2{
+	0%{background-image:url(img/img5.jpg);background-repeat: no-repeat}
+	25%{background-image:url(img/img5.jpg);background-repeat: no-repeat}
+	33%{background-image:url(img/img6.jpg);background-repeat: no-repeat}
+	58%{background-image:url(img/img6.jpg);background-repeat: no-repeat}
+	100%{background-image:url(img/img5.jpg);background-repeat: no-repeat}
+}
+@media screen and (max-device-width:940px){
+  aside{
+    display:none;
+  }
+  #mainSection{
+    max-width:100%;
+  }
+}
+@media screen and (max-device-width:480px) {
+	#wrapper  header  nav  ul  li {
+		display: none;
+	}
+ 
+	#wrapper  header  nav  div {
+		background-image: url(img/burgerButton.png);
+		width: 50px;
+		height: 40px;
+		margin-left: 82%;
+	}
+
+	#wrapper  header  nav  div:hover + ul > li {
+		display: block;
+		height: 18px;
+		text-align: center;
+		line-height: 18px;
+		padding: 10px;
+		margin: 4px;
+		font-size: 90%;
+		font-weight: bold;
+		border-radius: 5px;
+		border: 1px solid black;
+		box-shadow: 2px 2px 3px;
+		user-select: none;
+	}
+
+	#wrapper > #mainSection {
+		padding: 0;
+	}
+}
